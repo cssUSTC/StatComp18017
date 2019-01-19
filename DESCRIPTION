@@ -1,0 +1,18 @@
+Package: StatComp18017
+Type: Package
+Title: Example functions for 'Statistical Computing' course
+Version: 0.1.0
+Date: 2019-01-19
+Author: chenshanshan
+Maintainer: chenshanshan <1319519826@qq.com>
+Description: Several functions are included in this package for illustration.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 1.0.0), knitr, rmarkdown, microbenchmark, MASS, parallel, boot, bootstrap, DAAG, RANN, energy, Ball, ggplot2
+LinkingTo: Rcpp
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
+Suggests: knitr, rmarkdown
+URL: http://github.com/cssUSTC/StatComp18017
+BugReports: http://github.com/cssUSTC/StatComp18017/issues
